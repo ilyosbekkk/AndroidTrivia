@@ -20,6 +20,12 @@ class NavHostFragment : Fragment() {
         binding.playButton.setOnClickListener {
            view:View->view.findNavController().navigate(R.id.action_navHostFragment_to_gameFragment)
        }
+        binding.about.setOnClickListener {
+            view:View->view.findNavController().navigate(R.id.action_navHostFragment_to_aboutFragment)
+        }
+        binding.rules.setOnClickListener {
+            view:View->view.findNavController().navigate(R.id.action_navHostFragment_to_rulesFragment)
+        }
         setHasOptionsMenu(true)
         return binding.root
     }

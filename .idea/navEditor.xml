@@ -13,9 +13,18 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-481" />
-                            <option name="y" value="-121" />
+                            <option name="x" value="-511" />
+                            <option name="y" value="-118" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_aboutFragment_to_gameFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
@@ -93,13 +102,23 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-165" />
-                            <option name="y" value="206" />
+                            <option name="x" value="-303" />
+                            <option name="y" value="170" />
                           </Point>
                         </option>
                         <option name="myPositions">
                           <map>
+                            <entry key="action_navHostFragment_to_aboutFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
                             <entry key="action_navHostFragment_to_gameFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                            <entry key="action_navHostFragment_to_rulesFragment">
                               <value>
                                 <LayoutPositions />
                               </value>
@@ -114,9 +133,18 @@
                       <LayoutPositions>
                         <option name="myPosition">
                           <Point>
-                            <option name="x" value="-495" />
-                            <option name="y" value="423" />
+                            <option name="x" value="-503" />
+                            <option name="y" value="477" />
                           </Point>
+                        </option>
+                        <option name="myPositions">
+                          <map>
+                            <entry key="action_rulesFragment_to_gameFragment">
+                              <value>
+                                <LayoutPositions />
+                              </value>
+                            </entry>
+                          </map>
                         </option>
                       </LayoutPositions>
                     </value>
