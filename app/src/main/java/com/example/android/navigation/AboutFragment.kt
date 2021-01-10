@@ -22,13 +22,18 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
+import androidx.databinding.ViewDataBinding
 import androidx.navigation.findNavController
+import androidx.navigation.fragment.findNavController
+import androidx.viewbinding.ViewBinding
+import com.example.android.navigation.databinding.FragmentAboutBinding
 import com.example.android.navigation.databinding.FragmentTitleBinding
 
 class AboutFragment : Fragment() {
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
-        val  binding = DataBindingUtil.inflate<FragmentAboutBinding>(inflater, R.layout.fragment_about,  container,  false)
-        binding.about.setOnClickListener { view:View->view.findNavController().navigate(R.id.action_aboutFragment_to_gameFragment) }
-        return inflater.inflate(R.layout.fragment_about, container, false)
+
+        val binding = DataBindingUtil.inflate<FragmentAboutBinding>(inflater, R.layout.fragment_about, container, false)
+        binding.playAbout.setOnClickListener { view: View -> view.findNavController().navigate(R.id.action_aboutFragment_to_gameFragment) }
+        return binding.root
     }
 }
